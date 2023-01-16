@@ -64,6 +64,19 @@ h1 {
 }
 
 
+/* About me section */
+
+.aboutMe_section {
+	display: flex;
+	flex-direction: column;
+}
+
+.aboutMe_section img {
+	width: 200px;
+}
+
+
+
 
 @media screen and (max-width:800px) {  
 /*On the mobile version, there will be no navbar*/
@@ -71,11 +84,11 @@ h1 {
 		display: none;
 	}
 	
-	.introduction_section {
-		/*background-image: none;*/
+/*	.introduction_section {
+		background-image: none;
 		background-color: black;
 	}
-	
+*/	
 	.introduction_section h2 {
 		margin: 20px;	
 	}
