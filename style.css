@@ -1,3 +1,30 @@
 * {
 	box-sizing: border-box;
+	font-family: Helvetica;
+}
+
+
+header {
+	display: flex;
+	flex-direction: column;
+	background-color: white;	
+}
+
+h1 {
+	font-family: cursive;
+	font-size: 50px;
+	margin: 20px auto;
+}
+
+nav {
+	display: flex;
+	margin: 20px auto;
+	gap: 20px;
+	justify-content: space-evenly;
+}
+
+nav a {
+	text-decoration: none;
+	font-weight: bold;
+	color: black;
 }
