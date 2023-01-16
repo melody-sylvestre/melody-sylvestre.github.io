@@ -3,6 +3,7 @@
 	font-family: Helvetica;
 }
 
+/*This is the header section*/
 
 header {
 	display: flex;
@@ -16,15 +17,23 @@ h1 {
 	margin: 20px auto;
 }
 
-nav {
-	display: flex;
-	margin: 20px auto;
-	gap: 20px;
-	justify-content: space-evenly;
+
+	nav {
+		display: flex;
+		margin: 20px auto;
+		gap: 20px;
+		justify-content: space-evenly;
+	}
+
+	nav a {
+		text-decoration: none;
+		font-weight: bold;
+		color: black;
+	}
+@media screen and (max-width:800px) {  /*On the mobile version, there will be no navbar*/
+
+	nav{
+		display: none;
+	}
 }
 
-nav a {
-	text-decoration: none;
-	font-weight: bold;
-	color: black;
-}
