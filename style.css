@@ -34,19 +34,13 @@ h1 {
 		font-weight: bold;
 		color: black;
 	}
-@media screen and (max-width:800px) {  /*On the mobile version, there will be no navbar*/
-
-	nav{
-		display: none;
-	}
-}
 
 /*Introduction/Welcome  section*/
 
 .introduction_section {
 	display: flex;
 	flex-direction: column;
-	align-items: flex-end;
+	align-items: flex-start;
 	justify-content: center;
 	column-gap: 20px;
 	width: 100%;
@@ -59,17 +53,39 @@ h1 {
 	background-color: white;
 	color: black;
 	font-variant: small-caps;
-	margin-right: 30px;
+	margin-left: 550px;
 }
 
 .introduction_section p {
 	background-color: black;
 	color: white;
-	font-size: ;
-	margin-right: 30px;
+	margin-left: 550px;
 	font-size: 25px;
 }
 
+
+
+@media screen and (max-width:800px) {  
+/*On the mobile version, there will be no navbar*/
+	nav{
+		display: none;
+	}
+	
+	.introduction_section {
+		/*background-image: none;*/
+		background-color: black;
+	}
+	
+	.introduction_section h2 {
+		margin: 20px;	
+	}
+
+	.introduction_section p {
+		margin: 20px;
+	}
+	
+	
+}
 
 
 
