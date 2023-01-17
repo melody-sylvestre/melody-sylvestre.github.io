@@ -123,7 +123,21 @@ h1 {
 	display: flex;
 	justify-content: space-between;
 }
-								
+					
+.contact_section, footer{
+	margin: 20px;
+}					
+
+.contact_logos_bar {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	flex-wrap: wrap;
+}								
+
+.contact_logos_bar img { 
+	height: 100px;
+}
 
 @media screen and (max-width:800px) {  
 /*On the mobile version, there will be no navbar*/
