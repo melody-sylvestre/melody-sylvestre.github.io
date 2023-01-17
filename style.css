@@ -109,16 +109,19 @@ nav a {
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
-	justify-content: space-between;
+	justify-content: flex-start;
 	margin-left: 50px;
 	margin-right: 50px;
-	gap: 10px;
+	gap: 50px 200px;*/
 }
 
 .project_card {
+	border: 1px solid black;
 	display: flex;
 	flex-direction: column;
-	max-width: 300px;
+	justify-content: center;	
+	max-width: 400px;
+	padding: 20px;
 }
 
 .project_card img, .project_card p {
