@@ -67,15 +67,17 @@ h1 {
 /* About me section */
 
 .aboutMe_section {
-/*	display: flex;*/
-/*	flex-direction: column;
-*//*	align-items: center;*/
+	display: flex;
+  flex-direction: column;
+/*	align-items: center;*/
 }
 
 .aboutMe_card {
 	display: flex;
+	flex-wrap: wrap;
 	justify-content: flex-start;
 	margin-left: 50px;
+	gap: 20px;
 }
 
 .aboutMe_section img {
@@ -84,25 +86,30 @@ h1 {
 
 
 .aboutMe_section h2 {
-		margin-left: 50px;	
+		margin-left: 50px;
 	}
 
 .aboutMe_text {
 	display: flex;
 	flex-direction: column;
-	align-items: center;
-	margin: 20px;		
+	align-items: center;		
 	max-width: 500px;
-	}
-								
+	
 }
-
+								
 
 @media screen and (max-width:800px) {  
 /*On the mobile version, there will be no navbar*/
 	nav{
-		display: none;
+		display: none;	
 	}
+	
+	.introduction_section h2, .introduction_section p, .aboutMe_card, .aboutMe_section h2 {
+		justify-content: center;
+		margin: 10px 20px;
+	}
+	
+	
 
 /*.introduction_section h2, .introduction_section p {
 	color: white;
