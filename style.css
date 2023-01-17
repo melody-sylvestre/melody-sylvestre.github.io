@@ -1,6 +1,14 @@
+/* Generic Styling */ 
+
 * {
 	box-sizing: border-box;
 	font-family: Helvetica;
+}
+
+h1 {
+	font-family: cursive;
+	font-size: 50px;
+	margin: 20px auto;
 }
 
 h2 {
@@ -15,27 +23,21 @@ header {
 	background-color: white;	
 }
 
-h1 {
-	font-family: cursive;
-	font-size: 50px;
-	margin: 20px auto;
-}
 
-
-	nav {
-		display: flex;
+nav {
+	display: flex;
 		margin: 20px auto;
 		gap: 20px;
 		justify-content: space-evenly;
-	}
+}
 
-	nav a {
-		text-decoration: none;
-		font-weight: bold;
-		color: black;
-	}
+nav a {
+	text-decoration: none;
+	font-weight: bold;
+	color: black;
+}
 
-/*Introduction/Welcome  section*/
+/* Introduction/Welcome  section*/
 
 .introduction_section {
 	display: flex;
@@ -97,6 +99,8 @@ h1 {
 	
 }
 
+/* Portfolio section  */ 
+
 .portfolio_section h2 {
 	margin-left: 50px;
 }
@@ -105,8 +109,10 @@ h1 {
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
-	justify-content: space-evenly;
-	
+	justify-content: space-between;
+	margin-left: 50px;
+	margin-right: 50px;
+	gap: 10px;
 }
 
 .project_card {
@@ -115,7 +121,7 @@ h1 {
 	max-width: 300px;
 }
 
-.project_card img {
+.project_card img, .project_card p {
 	height: 200px;
 }
 
@@ -124,7 +130,7 @@ h1 {
 	justify-content: space-between;
 }
 					
-.contact_section, footer{
+.contact_section, footer {
 	margin: 20px;
 }					
 
