@@ -96,6 +96,24 @@ h1 {
 	max-width: 500px;
 	
 }
+
+.portfolio_section h2 {
+	margin-left: 50px;
+}
+
+.project_cards_container {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	
+}
+
+.project_card {
+	display: flex;
+	flex-direction: column;
+	max-width: 300px;
+}
 								
 
 @media screen and (max-width:800px) {  
