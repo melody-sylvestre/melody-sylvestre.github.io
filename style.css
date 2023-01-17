@@ -40,7 +40,7 @@ h1 {
 .introduction_section {
 	display: flex;
 	flex-direction: column;
-	align-items: flex-start;
+	align-items: flex-end;
 	justify-content: center;
 	column-gap: 20px;
 	width: 100%;
@@ -53,13 +53,13 @@ h1 {
 	background-color: white;
 	color: black;
 	font-variant: small-caps;
-	margin-left: 550px;
+	margin-right: 50px;
 }
 
 .introduction_section p {
 	background-color: black;
 	color: white;
-	margin-left: 550px;
+	margin-right: 50px;
 	font-size: 25px;
 }
 
@@ -67,8 +67,15 @@ h1 {
 /* About me section */
 
 .aboutMe_section {
+/*	display: flex;*/
+/*	flex-direction: column;
+*//*	align-items: center;*/
+}
+
+.aboutMe_card {
 	display: flex;
-	flex-direction: column;
+	justify-content: flex-start;
+	margin-left: 50px;
 }
 
 .aboutMe_section img {
@@ -76,6 +83,19 @@ h1 {
 }
 
 
+.aboutMe_section h2 {
+		margin-left: 50px;	
+	}
+
+.aboutMe_text {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: 20px;		
+	max-width: 500px;
+	}
+								
+}
 
 
 @media screen and (max-width:800px) {  
@@ -83,24 +103,6 @@ h1 {
 	nav{
 		display: none;
 	}
-	
-/*	.introduction_section {
-		background-image: none;
-		background-color: black;
-	}
-*/	
-	.introduction_section h2 {
-		margin: 20px;	
-	}
-
-	.introduction_section p {
-		margin: 20px;
-	}
-	
-	
-}
-
-
 
 /*.introduction_section h2, .introduction_section p {
 	color: white;
