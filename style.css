@@ -46,7 +46,7 @@ nav a {
 	justify-content: center;
 	column-gap: 20px;
 	width: 100%;
-	height: 500px;
+	height: 900px;
 	background-image: url(images/horse_head_nebula.jpg); /* a place-holder image */ 
 	background-size:cover; /* allows to get the background in the whole section*/
 }
@@ -71,21 +71,24 @@ nav a {
 .aboutMe_section {
 	display: flex;
   flex-direction: column;
-/*	align-items: center;*/
+	align-items: flex-start;
+	justify-content: center;
 }
 
 .aboutMe_card {
 	display: flex;
+	flex-direction: row;
 	flex-wrap: wrap;
 	justify-content: flex-start;
+	align-items: center;
 	margin-left: 50px;
 	gap: 20px;
 }
 
 .aboutMe_section img {
 	width: 200px;
+	height: 250px;*/
 }
-
 
 .aboutMe_section h2 {
 		margin-left: 50px;
@@ -94,9 +97,13 @@ nav a {
 .aboutMe_text {
 	display: flex;
 	flex-direction: column;
-	align-items: center;		
-	max-width: 500px;
-	
+	align-items: flex-start ;		
+	max-width: 1000px;
+	gap: 20px;
+}
+
+.aboutMe_text p, .aboutMe_text a {
+	font-size: 24px;
 }
 
 /* Portfolio section  */ 
