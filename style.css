@@ -7,12 +7,29 @@
 
 h1 {
 	font-family: cursive;
+	color: white; /*#d65a64;*/
 	font-size: 50px;
 	margin: 20px auto;
 }
 
 h2 {
 	font-size: 30px ;
+	color: #d65a64; /*white;*/	
+}
+
+h3 {
+	color: white;	
+}
+
+
+p {
+	color: white;
+}
+
+a {
+	text-decoration: none;
+	font-weight: bold;
+	color: #d65a64; /*white;*/
 }
 
 /*This is the header section*/
@@ -20,7 +37,7 @@ h2 {
 header {
 	display: flex;
 	flex-direction: column;
-	background-color: white;	
+	background-color: #262323;	
 }
 
 
@@ -31,11 +48,12 @@ nav {
 		justify-content: space-evenly;
 }
 
-nav a {
+/*nav a {
 	text-decoration: none;
 	font-weight: bold;
-	color: black;
+	color: #d65a64;
 }
+*/
 
 /* Introduction/Welcome  section*/
 
@@ -73,6 +91,10 @@ nav a {
   flex-direction: column;
 	align-items: flex-start;
 	justify-content: center;
+	background-color: #262323;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	
 }
 
 .aboutMe_card {
@@ -108,7 +130,14 @@ nav a {
 
 /* Portfolio section  */ 
 
+.portfolio_section {
+	background-color: #171616;
+	padding: 0 50px;
+}
+
 .portfolio_section h2 {
+	margin-top: 0;
+	padding: 20px;
 	margin-left: 50px;
 }
 
@@ -123,10 +152,10 @@ nav a {
 }
 
 .project_card {
-	border: 1px solid black;
+	border: 2px solid #262323;
 	display: flex;
 	flex-direction: column;
-	justify-content: flex-start;
+	justify-content: flex-starts;
 	max-width: 400px;
 	padding: 20px;
 }
@@ -140,10 +169,19 @@ nav a {
 	justify-content: space-between;
 }
 					
-.contact_section, footer {
-	margin: 20px;
+.contact_section{
+	margin: 0;
+	padding: 20px;
+	background-color: #262323;	
+	
 }					
 
+footer {
+	margin: 0;
+	padding: 20px;
+	background-color: #171616;	
+	
+}					
 .contact_logos_bar {
 	display: flex;
 	justify-content: space-around;
