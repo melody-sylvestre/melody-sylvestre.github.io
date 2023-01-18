@@ -1,43 +1,68 @@
-/* Generic Styling */ 
+/* GENERIC STYLING */ 
 
 * {
 	box-sizing: border-box;
 	font-family: Helvetica;
+	font-size: 10px;
 }
 
 h1 {
 	font-family: cursive;
-	font-size: 50px;
+	color: #ebedf0; /*a grey-ish white*/
+	font-size: 7rem;
 	margin: 20px auto;
 }
 
 h2 {
-	font-size: 30px ;
+	font-size: 3rem ;
+	color: #d65a64; /* cute pink colour*/	
+	margin: 0 50px;
 }
 
-/*This is the header section*/
+h3 {
+	color: #ebedf0;	
+	font-size: 2rem;	
+}
+
+p {
+	color: #ebedf0;
+	font-size: 1.8rem;
+}
+
+a {
+	text-decoration: none;
+	font-weight: bold;
+	color: #d65a64; 
+	font-size: 1.8rem;
+}
+
+.aboutMe_section, .portfolio_section, .contact_section {
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+/* HEADER SECTIOn*/
 
 header {
 	display: flex;
 	flex-direction: column;
-	background-color: white;	
+	background-color: #262323;
+	padding: 20px;	
 }
-
 
 nav {
 	display: flex;
-		margin: 20px auto;
-		gap: 20px;
-		justify-content: space-evenly;
+	margin: 20px auto;
+	gap: 20px;
+	justify-content: space-evenly;
 }
 
 nav a {
-	text-decoration: none;
-	font-weight: bold;
-	color: black;
+	font-size: 2.5rem;
 }
 
-/* Introduction/Welcome  section*/
+
+/* INTRODUCTION/WELCOME SECTION */
 
 .introduction_section {
 	display: flex;
@@ -46,63 +71,82 @@ nav a {
 	justify-content: center;
 	column-gap: 20px;
 	width: 100%;
-	height: 500px;
+	height: 900px;
 	background-image: url(images/horse_head_nebula.jpg); /* a place-holder image */ 
 	background-size:cover; /* allows to get the background in the whole section*/
 }
 
 .introduction_section h2 {
-	background-color: white;
-	color: black;
+	color: white;
+	font-size: 5rem;
 	font-variant: small-caps;
-	margin-right: 50px;
+	margin-left: 30%;
+	margin-right: 15%;
 }
 
 .introduction_section p {
-	background-color: black;
+	background-color: rgba(0,0,0,0.5);
 	color: white;
-	margin-right: 50px;
-	font-size: 25px;
+	margin-left: 30%;
+	margin-right: 15%;	
+	font-size: 3.5rem;
+	font-variant: small-caps;	
 }
 
 
-/* About me section */
+/* ABOUT ME SECTION */
 
 .aboutMe_section {
 	display: flex;
   flex-direction: column;
-/*	align-items: center;*/
+	align-items: flex-start;
+	justify-content: center;
+	background-color: #262323;	
 }
 
 .aboutMe_card {
 	display: flex;
+	flex-direction: row;
 	flex-wrap: wrap;
 	justify-content: flex-start;
+	align-items: center;
 	margin-left: 50px;
-	gap: 20px;
+	gap: 75px;
 }
 
 .aboutMe_section img {
 	width: 200px;
+	height: 250px;
+	border-radius: 10px;
 }
 
-
-.aboutMe_section h2 {
-		margin-left: 50px;
-	}
 
 .aboutMe_text {
 	display: flex;
 	flex-direction: column;
-	align-items: center;		
-	max-width: 500px;
-	
+	align-items: flex-start ;		
+	max-width: 1000px;
 }
 
-/* Portfolio section  */ 
+.aboutMe_text p, .aboutMe_text a {
+	font-size: 2.4rem;
+}
+
+.aboutMe_text a {
+	color: white;
+	background-color: #d65a64;
+	padding: 5px;
+	border-radius: 10px;
+}
+
+/* PORTFOLIO SECTION */ 
+
+.portfolio_section {
+	background-color: #171616;
+}
 
 .portfolio_section h2 {
-	margin-left: 50px;
+	margin: 0 50px;
 }
 
 .project_cards_container {
@@ -110,18 +154,20 @@ nav a {
 	flex-direction: row;
 	flex-wrap: wrap;
 	justify-content: flex-start;
-	margin-left: 50px;
-	margin-right: 50px;
-	gap: 50px 200px;*/
+	margin: 20px 50px;
+	gap: 50px 200px;
 }
 
 .project_card {
-	border: 1px solid black;
+	border: 2px solid #262323;
 	display: flex;
 	flex-direction: column;
-	justify-content: center;	
+	justify-content: flex-starts;
 	max-width: 400px;
 	padding: 20px;
+	border-radius: 10px;
+	column-gap: 50px;
+
 }
 
 .project_card img, .project_card p {
@@ -132,36 +178,54 @@ nav a {
 	display: flex;
 	justify-content: space-between;
 }
-					
-.contact_section, footer {
-	margin: 20px;
-}					
 
+
+/* CONTACT AMD FOOTER SECTIONS */
+					
+.contact_section{
+	margin: 0;
+	background-color: #262323;	
+}		
+
+.contact_section p{
+	margin: 50px 50px;
+	font-size: 2.4rem;
+}			
+
+footer {
+	margin: 0;
+	padding: 20px;
+	background-color: #171616;	
+	
+}					
 .contact_logos_bar {
 	display: flex;
-	justify-content: space-around;
+	justify-content: flex-start;
 	align-items: center;
 	flex-wrap: wrap;
+	gap: 50px;
+	padding-left: 50px;
 }								
 
 .contact_logos_bar img { 
 	height: 100px;
 }
 
+
+/* A FEW ADAPTATIONS FOR MOBILE DISPLAY */
+
 @media screen and (max-width:800px) {  
 /*On the mobile version, there will be no navbar*/
 	nav{
 		display: none;	
 	}
-	
-	.introduction_section h2, .introduction_section p, .aboutMe_card, .aboutMe_section h2, .portfolio_section h2 {
-		justify-content: center;
-		margin: 10px 20px;
+		
+	.introduction_section h2, .introduction_section p, .aboutMe_card, .aboutMe_section h2, .portfolio_section h2{
+	 justify-content: center;
+	 margin: 10px 20px;
 	}
 	
-	
-
-/*.introduction_section h2, .introduction_section p {
-	color: white;
-	padding-right: 30px;
-}*/
+	.project_card_container {
+		margin: 0;
+	}
+}
