@@ -138,11 +138,13 @@ nav a {
 
 .portfolio_section {
 	background-color: #171616;
-	padding: 50px 50px;
+/*  	padding: 50px 50px;*/
+	padding-top: 50px;
+	padding-bottom: 50px;
 }
 
 .portfolio_section h2 {
-	margin-top: 0;
+	margin: 0;
 }
 
 .project_cards_container {
@@ -163,10 +165,11 @@ nav a {
 	max-width: 400px;
 	padding: 20px;
 	border-radius: 10px;
+	column-gap: 50px;
 
 }
 
-.project_card img, .project_card p {
+.project_card img { /*, .project_card p {*/
 	height: 200px;
 }
 
@@ -209,9 +212,12 @@ footer {
 		display: none;	
 	}
 	
-	.introduction_section h2, .introduction_section p, .aboutMe_card, .aboutMe_section h2, .portfolio_section h2 {
-		justify-content: center;
-		margin: 10px 20px;
+	
+	.introduction_section h2, .introduction_section p, .aboutMe_card, .aboutMe_section h2, .portfolio_section h2{
+	 justify-content: center;
+	 margin: 10px 20px;
 	}
 	
-	
+	.project_card_container {
+		margin: 0;
+	}
