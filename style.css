@@ -8,7 +8,7 @@
 h1 {
 	font-family: cursive;
 	color: white; /*#d65a64;*/
-	font-size: 50px;
+	font-size: 70px;
 	margin: 20px auto;
 }
 
@@ -21,7 +21,6 @@ h3 {
 	color: white;	
 }
 
-
 p {
 	color: white;
 }
@@ -29,7 +28,7 @@ p {
 a {
 	text-decoration: none;
 	font-weight: bold;
-	color: #d65a64; /*white;*/
+	color: #d65a64; 
 }
 
 /*This is the header section*/
@@ -37,7 +36,8 @@ a {
 header {
 	display: flex;
 	flex-direction: column;
-	background-color: #262323;	
+	background-color: #262323;
+	padding: 20px;	
 }
 
 
@@ -48,12 +48,10 @@ nav {
 		justify-content: space-evenly;
 }
 
-/*nav a {
-	text-decoration: none;
-	font-weight: bold;
-	color: #d65a64;
+nav a {
+	font-size: 25px;
 }
-*/
+
 
 /* Introduction/Welcome  section*/
 
@@ -70,17 +68,18 @@ nav {
 }
 
 .introduction_section h2 {
-	background-color: white;
-	color: black;
+	color: white;
+	font-size: 50px;
 	font-variant: small-caps;
-	margin-right: 50px;
+	margin-right: 300px;
 }
 
 .introduction_section p {
-	background-color: black;
+	background-color: rgba(0,0,0,0.5);
 	color: white;
-	margin-right: 50px;
-	font-size: 25px;
+	margin-right: 300px;
+	font-size: 45px;
+	font-variant: small-caps;	
 }
 
 
@@ -128,17 +127,22 @@ nav {
 	font-size: 24px;
 }
 
+.aboutMe_text a {
+	color: white;
+	background-color: #d65a64;
+	padding: 5px;
+	border-radius: 10px;
+}
+
 /* Portfolio section  */ 
 
 .portfolio_section {
 	background-color: #171616;
-	padding: 0 50px;
+	padding: 50px 50px;
 }
 
 .portfolio_section h2 {
 	margin-top: 0;
-	padding: 20px;
-	margin-left: 50px;
 }
 
 .project_cards_container {
@@ -148,7 +152,7 @@ nav {
 	justify-content: flex-start;
 	margin-left: 50px;
 	margin-right: 50px;
-	gap: 50px 200px;*/
+	gap: 50px 200px;
 }
 
 .project_card {
@@ -158,6 +162,8 @@ nav {
 	justify-content: flex-starts;
 	max-width: 400px;
 	padding: 20px;
+	border-radius: 10px;
+
 }
 
 .project_card img, .project_card p {
@@ -168,6 +174,9 @@ nav {
 	display: flex;
 	justify-content: space-between;
 }
+
+
+/* Contact and footer section */
 					
 .contact_section{
 	margin: 0;
@@ -193,6 +202,7 @@ footer {
 	height: 100px;
 }
 
+
 @media screen and (max-width:800px) {  
 /*On the mobile version, there will be no navbar*/
 	nav{
@@ -205,8 +215,3 @@ footer {
 	}
 	
 	
-
-/*.introduction_section h2, .introduction_section p {
-	color: white;
-	padding-right: 30px;
-}*/
