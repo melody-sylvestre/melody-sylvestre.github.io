@@ -36,7 +36,7 @@ a {
 	font-size: 1.8rem;
 }
 
-.aboutMe_section, .portfolio_section, .contact_section {
+.about_me_section, .portfolio_section, .contact_section {
 	padding-top: 30px;
 	padding-bottom: 30px;
 }
@@ -94,11 +94,11 @@ nav a {
 
 /* ABOUT ME SECTION */
 
-.aboutMe_section {
+.about_me_section {
 	background-color: #262323;	
 }
 
-.aboutMe_card {
+.about_me_card {
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
@@ -108,24 +108,24 @@ nav a {
 	gap: 75px;
 }
 
-.aboutMe_section img {
+.about_me_section img {
 	width: 200px;
 	height: 250px;
 	border-radius: 10px;
 }
 
-.aboutMe_text {
+.about_me_text {
 	display: flex;
 	flex-direction: column;
 	align-items: flex-start ;		
 	max-width: 1000px;
 }
 
-.aboutMe_text p, .aboutMe_text a {
+.about_me_text p, .about_me_text a {
 	font-size: 2.4rem;
 }
 
-.aboutMe_text a {
+.about_me_text a {
 	color: white;
 	background-color: #d65a64;
 	padding: 5px;
@@ -207,14 +207,11 @@ footer {
 		display: none;	
 	}
 		
-	.introduction_section h2, .aboutMe_card, .introduction_section p, .aboutMe_section h2, .portfolio_section h2 {
+	.introduction_section h2, .introduction_section p, .about_me_card, .about_me_section h2, .portfolio_section h2 {
 	 	margin: 10px 20px;
 	}
 	
-	.aboutMe_card {
+	.about_me_card {
 		justify-content: center;
-	}
-	.project_cards_container {
-		margin: 0;
 	}
 }
