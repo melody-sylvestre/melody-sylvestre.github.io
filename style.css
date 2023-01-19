@@ -161,6 +161,12 @@ nav a {
 	height: 200px;
 }
 
+.project_text {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	height: 100%;
+}
 .project_links_bar {
 	display: flex;
 	justify-content: space-between;
