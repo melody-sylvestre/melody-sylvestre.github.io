@@ -31,17 +31,23 @@
 
 		<div class="about_me_card">
 			<img src="images/me_crop.jpg" alt="A picture of me">
-<!-- TODO: CHANGE INTRO TEXT!!!	 -->
 			<div class="about_me_text">
-				<p>Hi! I'm Melody! I recently graduated from IO Academy (Bath) as a full stack software developer. In a
-					previous life, I worked as a planetary scientist in France and in the UK for 9 years.
+				<p>Hi! I'm Melody! I recently graduated from <a class="inline_link"
+						href="https://io-academy.uk/courses/full-stack-track">iO Academy</a> as a full stack software
+					developer. In a
+					previous life, I worked as an astrophysicist in France and in the UK for 9 years, and then as a
+					operational researcher in international trade for UK's civil service.
 				</p>
-				<p>I'm curious and I love a good challenge, especially if it gives me an opportunity to get outside of
-					my comfort zone! Outside work, I enjoy singing, playing piano, sewing, crochet and all things
-					space-related!
+				<p>I'm curious, I love a good challenge - especially if it gets me outside of
+					my comfort zone, and I love coding. I am looking forward to pursue these interests in my new career
+					as a software developer.
+				</p>
+				<p>
+					Outside work, I enjoy singing with my a cappella choir, playing piano, sewing, crochet and all
+					things space-related!
 				</p>
 				<!-- TODO: CHANGE CV FILE  -->
-				<a href="images/cv_msylvestre.pdf" target="_blank">Download my CV</a>
+				<a class="solo_link" href="images/cv_msylvestre.pdf" target="_blank">Download my CV</a>
 			</div>
 		</div>
 
@@ -50,26 +56,44 @@
 	<div id="portfolio" class="portfolio_section">
 		<h2>Portfolio</h2>
 		<p class="portfolio_intro_text">
-			As a student of the iO Academy full stack software development course, I have worked on several individual and team projects. 
+			As a student of the iO Academy full stack software development course, I have worked on several individual
+			and team projects.
 			You will find below a brief description for each of them.
-		</p>	
-<!-- TODO ADD INTRO TEXT FOR PROJECTS -->
+		</p>
+		<!-- TODO ADD INTRO TEXT FOR PROJECTS -->
 		<div class="project_cards_container">
+
+			<div class="project_card">
+				<img src="images/yarnApp.png" alt="Screenshot my yarn collection app">
+				<h3>Collection app</h3>
+				<div class="project_text">
+					<p>A simple PHP app to visualise my yarn stash! It interrogates an SQL database and displays all its
+						items in a pre-defined format, with minimal CSS styling.
+					</p>
+					<div class="project_links_bar">
+						<a href="https://github.com/melody-sylvestre/yarnApp" target="_blank">Github</a>
+						<a href="https://2023-melodys.dev.io-academy.uk/yarnApp/" target="_blank">Live</a>
+					</div>
+				</div>
+			</div>
+
 			<div class="project_card">
 				<img src="images/Pro-to-type.png" alt="Screenshot of our typing speed game Pro-to-type">
 
 				<h3>Pro-To-Type</h3>
 				<div class="project_text">
 					<p>
-					This is a typing speed game in JavaScript where players have 60s to copy a randomly generated text. At the end of the game they 
-					can see their typing speed and the accuracy scores. I worked on various functionalities of this app such as fetching a 
-					random text to copy from an API, comparing the player's input to the reference text and a timer. I was also scrum master 
-					for this project. 
+						This is a typing speed game where players have 60s to copy a randomly generated text. At the end
+						of the game they can see their typing speed and the accuracy scores. We used Javascript, HTML
+						and CSS to create this app. I worked on various functionalities of this app such as fetching a
+						random text to copy from an API, comparing the player's input to the reference text and a timer.
+						I was also scrum master
+						for this project.
 					</p>
 
 					<div class="project_links_bar">
-						<a href="https://github.com/iO-Academy/Pro-to-type">Github</a>
-						<a href="https://jan23-pro-to-type.dev.io-academy.uk">Live</a>
+						<a href="https://github.com/iO-Academy/Pro-to-type" target="_blank">Github</a>
+						<a href="https://jan23-pro-to-type.dev.io-academy.uk" target="_blank">Live</a>
 					</div>
 				</div>
 			</div>
@@ -79,11 +103,14 @@
 				<h3>Food Delivery App</h3>
 				<div class="project_text">
 					<p>
-						We developed the frontend for a food delivery app using Bootstrap CSS and React Javascript. I worked on the feature that allows diners to choose a restaurant, fetches its menu from a supplied API and displays it on the webpage.
+						We developed the frontend for a food delivery app using Bootstrap CSS and React Javascript. I
+						worked on the feature that allows diners to choose a restaurant, fetches its menu from a
+						supplied API and displays it on the webpage.
 					</p>
 					<div class="project_links_bar">
-						<a href="https://github.com/iO-Academy/23-jan-chickens-food-delivery-app">Github</a>
-<!-- TODO add a Live link!!! -->
+						<a href="https://github.com/iO-Academy/23-jan-chickens-food-delivery-app"
+							target="_blank">Github</a>
+						<!-- TODO add a Live link!!! -->
 					</div>
 				</div>
 			</div>
@@ -93,62 +120,18 @@
 				<h3>Project management API</h3>
 				<div class="project_text">
 					<p>
-					We created a backend API for a project management app with PHP and SQL. We used OOP to create endpoints following the SOLID principles for the application architecture, allowing users to display all the projects from the database or a specific project. I worked on  the class containing the details of a project, unit testing and error handling. 
+						We created a backend API for a project management app with PHP and SQL. We used OOP to create
+						endpoints following the SOLID principles for the application architecture, allowing users to
+						display all the projects from the database or a specific project. I worked on the class
+						containing the details of a project, unit testing and error handling.
 					</p>
 					<div class="project_links_bar">
-						<a href="https://github.com/iO-Academy/23-jan-chickens-project-management-api">Github</a>
+						<a href="https://github.com/iO-Academy/23-jan-chickens-project-management-api"
+							target="_blank">Github</a>
 						<!-- <a href="#">Live</a>  --- TODO? LIVE LINK?-->
 					</div>
 				</div>
 			</div>
-
-			<div class="project_card">
-				<img src="images/random1.jpg" alt="Screenshot of an app using our project management API">
-				<h3>Collection app</h3>
-				<div class="project_text">
-					<p>A short and impactful description of the project. A nice little paragraph where I talk about the
-						project. What was it about? What techniques did I use? What did I enjoy about it? Why do I think
-						it is interesting? Any highlights, fun facts, interesting results?
-					</p>
-					<div class="project_links_bar">
-						<a href="#">Github</a>
-						<a href="#">Live</a>
-					</div>
-				</div>
-			</div>
-
-			<div class="project_card">
-				<img src="images/random3.jpg" alt="An illustration of this project">
-				<h3>Project title</h3>
-				<div class="project_text">
-					<p>A short and impactful description of the project. A nice little paragraph where I talk about the
-						project. What was it about? What techniques did I use? What did I enjoy about it? Why do I think
-						it is interesting? Any highlights, fun facts, interesting results? This is an additional
-						sentence to test what happend when this paragraph has a slightly different size. Hope everything
-						stays in place!
-					</p>
-					<div class="project_links_bar">
-						<a href="#">Github</a>
-						<a href="#">Live</a>
-					</div>
-				</div>
-			</div>
-
-			<div class="project_card">
-				<img src="images/random1.jpg" alt="An illustration of this project">
-				<h3>Project title</h3>
-				<div class="project_text">
-					<p>A short and impactful description of the project. A nice little paragraph where I talk about the
-						project. What was it about? What techniques did I use? What did I enjoy about it? Why do I think
-						it is interesting? Any highlights, fun facts, interesting results?
-					</p>
-					<div class="project_links_bar">
-						<a href="#">Github</a>
-						<a href="#">Live</a>
-					</div>
-				</div>
-			</div>
-
 		</div>
 	</div>
 
@@ -161,7 +144,7 @@
 			<a href=mailto:"melody.sylvestre@gmail.com"><img src="images/email_logo.png" alt="An email logo"></a>
 			<a href="https://www.linkedin.com/in/melody-sylvestre-093914203/"><img src="images/linkedin_logo.png"
 					alt="LinkedIn logo"></a>
-			<a href="https://github.com/melsylv"><img src="images/GitHub_logo.png" alt="GitHub logo"></a>
+			<a href="https://github.com/melody-sylvestre"><img src="images/GitHub_logo.png" alt="GitHub logo"></a>
 		</div>
 	</div>
 
