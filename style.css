@@ -110,7 +110,6 @@ nav a {
 
 .about_me_section img {
 	width: 200px;
-	height: 250px;
 	border-radius: 10px;
 }
 
@@ -125,7 +124,12 @@ nav a {
 	font-size: 2.4rem;
 }
 
-.about_me_text a {
+.inline_link{
+	text-decoration: underline;
+	font-weight: normal;
+}
+
+.solo_link{
 	color: white;
 	background-color: #d65a64;
 	padding: 5px;
