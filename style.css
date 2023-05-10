@@ -109,6 +109,7 @@ nav a {
 }
 
 .about_me_section img {
+	object-fit: cover;
 	width: 200px;
 	border-radius: 10px;
 }
@@ -166,6 +167,7 @@ nav a {
 
 .project_card img {
 	height: 200px;
+	object-fit: cover;
 }
 
 .project_text {
