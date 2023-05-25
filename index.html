@@ -53,7 +53,6 @@
 				<a class="solo_link" href="images/cv_msylvestre.pdf" target="_blank">Download my CV</a>
 			</div>
 		</div>
-
 	</div>
 
 	<div id="portfolio" class="portfolio_section">
@@ -63,19 +62,21 @@
 			and team projects.
 			You will find below a brief description for each of them.
 		</p>
-		<!-- TODO ADD INTRO TEXT FOR PROJECTS -->
+		<!-- TODO REORDER PROJECTS - PUT THE MOST INTERESTING FIRST! -->
 		<div class="project_cards_container">
 
 			<div class="project_card">
-				<img src="images/yarnApp.png" alt="Screenshot my yarn collection app">
-				<h3>Collection app</h3>
+				<img src="images/margarater.jpg" alt="Screenshot my yarn collection app">
+				<h3>Pizza toppings rater</h3>
 				<div class="project_text">
-					<p>A simple PHP app to visualise my yarn stash! It interrogates an SQL database and displays all its
-						items in a pre-defined format, with minimal CSS styling.
-					</p>
+					<p> A website where you can vote for your favourite pizza toppings! We used a MERN stack to create a
+						website where users can either choose their favourite topping among 2 randomly selected toppings
+						or see the top 10 toppings from all the votes. On the frontend, I created the cards in which the
+						toppings are displayed, using React.JS, Typescript and SCSS. On the backend, I used Node.js, Express and Typescript
+						to implement the endpoint that allows to save the users' votes in the MongoDB database.
 					<div class="project_links_bar">
-						<a href="https://github.com/melody-sylvestre/yarnApp" target="_blank">Github</a>
-						<a href="https://2023-melodys.dev.io-academy.uk/yarnApp/" target="_blank">Live</a>
+						<a href="https://github.com/tauroid/margarater" target="_blank">Github</a>
+						<a href="https://2023-jan-chickens-margarater.dev.io-academy.uk/" target="_blank">Live</a>
 					</div>
 				</div>
 			</div>
@@ -102,11 +103,31 @@
 			</div>
 
 			<div class="project_card">
+				<img src="images/project_manager_api_json.jpg"
+					alt="Screenshot of the data provided by the project management API">
+				<h3>Project management API</h3>
+				<div class="project_text">
+					<p>
+						We created a backend REST API for a project management app with PHP and SQL. We used OOP to create
+						endpoints following the SOLID principles for the application architecture, allowing users to
+						display all the projects from the database or a specific project. I worked on the class
+						containing the details of a project, unit testing and error handling.
+					</p>
+					<div class="project_links_bar">
+						<a href="https://github.com/iO-Academy/23-jan-chickens-project-management-api"
+							target="_blank">Github</a>
+						<a href="https://2023-jan-chickens-project-management-api.dev.io-academy.uk/projects.php"
+							target="_blank">Live</a>
+					</div>
+				</div>
+			</div>
+
+			<div class="project_card">
 				<img src="images/Food_delivery_app.png" alt="Screenshot of our food app.">
 				<h3>Food Delivery App</h3>
 				<div class="project_text">
 					<p>
-						We developed the frontend for a food delivery app using Bootstrap CSS and React Javascript. I
+						We developed the frontend for a food delivery app using Bootstrap CSS and React JS. I
 						worked on the feature that allows diners to choose a restaurant, fetches its menu from a
 						supplied API and displays it on the webpage.
 					</p>
@@ -119,36 +140,37 @@
 			</div>
 
 			<div class="project_card">
-				<img src="images/project_manager_api_json.jpg" alt="Screenshot of the data provided by the project management API">
-				<h3>Project management API</h3>
-				<div class="project_text">
-					<p>
-						We created a backend API for a project management app with PHP and SQL. We used OOP to create
-						endpoints following the SOLID principles for the application architecture, allowing users to
-						display all the projects from the database or a specific project. I worked on the class
-						containing the details of a project, unit testing and error handling.
-					</p>
-					<div class="project_links_bar">
-						<a href="https://github.com/iO-Academy/23-jan-chickens-project-management-api"
-							target="_blank">Github</a>
-						<a href="https://2023-jan-chickens-project-management-api.dev.io-academy.uk/projects.php" target="_blank">Live</a>
-					</div>
-				</div>
-			</div>
-			<div class="project_card">
-				<img src="images/random2.jpg" alt="A random image">
+				<img src="images/academy_portal.png" alt="A random image">
 				<h3>iO Academy Portal</h3>
 				<div class="project_text">
 					<p>
-						We contributed to the development of a management software for the iO Academy, which would handle the logistics of its training courses (i.e. creating student profiles, registering them in a course etc.). We worked on the implementation of a feature that would allow a student to edit their profile to add additional information. I worked on the PHP backend. I implemented a new endpoint for the API so that the new data are validated, sanitised and added in the mySQL database. 
+						We contributed to the development of a management software for iO Academy, which would
+						handle the logistics of its training courses (i.e. creating student profiles, registering them
+						in a course etc.). We worked on the implementation of a feature that would allow a student to
+						edit their profile to add additional information. I worked on the PHP backend. I used the existing Slim framework to implement a
+						new endpoint for the API so that the new data are validated, sanitised and added in the SQL
+						database.
 					</p>
 					<div class="project_links_bar">
-						<a href="https://github.com/iO-Academy/AcademyPortal"
-							target="_blank">Github</a>
-						<!-- <a href="#">Live</a>  --- TODO? LIVE LINK?-->
+						<a href="https://github.com/iO-Academy/AcademyPortal" target="_blank">Github</a>
 					</div>
 				</div>
 			</div>
+
+			<div class="project_card">
+				<img src="images/yarnApp.png" alt="Screenshot my yarn collection app">
+				<h3>Collection app</h3>
+				<div class="project_text">
+					<p>A simple PHP app to visualise my yarn stash! It interrogates an SQL database and displays all its
+						items in a pre-defined format, with minimal CSS styling.
+					</p>
+					<div class="project_links_bar">
+						<a href="https://github.com/melody-sylvestre/yarnApp" target="_blank">Github</a>
+						<a href="https://2023-melodys.dev.io-academy.uk/yarnApp/" target="_blank">Live</a>
+					</div>
+				</div>
+			</div>
+
 		</div>
 	</div>
 
