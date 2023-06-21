@@ -7,7 +7,8 @@
 		href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&family=Playfair+Display&display=swap"
+		rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
@@ -25,33 +26,49 @@
 
 
 	<div class="introduction_section">
-		<h2>Hi and welcome to my portfolio</h2>
-		<p>I'm Melody, a full stack software developer based in Bristol</p>
+		<h2>Hi and welcome to my portfolio.</h2>
+		<p>I'm Melody, a full stack software developer based in Bristol.</p>
 	</div>
 
 	<div id="about_me" class="about_me_section">
 		<h2>About me</h2>
 
 		<div class="about_me_card">
-			<img src="images/hands_on_laptop.jpg" alt="A drawing of someone using a laptop while taking notes on a notepad.">
+			<img src="images/hands_on_laptop.jpg"
+				alt="A drawing of someone using a laptop while taking notes on a notepad.">
 			<div class="about_me_text">
-				<p>Hi! I'm Melody! I am about to graduate from <a class="inline_link"
-						href="https://io-academy.uk/courses/full-stack-track">iO Academy</a> as a full stack software
-					developer. In a
-					previous life, I worked as an astrophysicist in France and in the UK for 9 years, and then as an
-					operational researcher in international trade for UK's civil service.
+				<p>Hi, I'm Melody! I recently graduated from <a class="inline_link"
+						href="https://io-academy.uk/courses/full-stack-track">the iO Academy bootcamp</a> as a full
+					stack software developer. With 10 years of experience in coding from my previous roles as an
+					astrophysicist and an operational researcher in international trade, I bring strong problem-solving
+					skills and a knack for quickly learning and adapting to new technologies and fields. I believe these
+					skills will enable me to excel in my software development career.
 				</p>
-				<p>I'm curious, I love a good challenge - especially if it gets me outside of
-					my comfort zone, and I love coding. I am looking forward to pursue these interests in my new career
-					as a software developer.
+				<p>I'm curious and thrive on challenges, especially those that push me outside of my comfort zone.
+					Coding is my passion, and I'm excited to pursue these interests in my new journey as a software
+					developer.
 				</p>
-				<p>
-					Outside work, I enjoy singing with my a cappella choir, playing piano, sewing, crochet and all
-					things space-related!
+				<p>Here's a list of a few technologies and methodologies I have been working on:
 				</p>
-				<!-- TODO: CHANGE CV FILE  -->
-				<a class="solo_link" href="images/MSylvestre_CV.pdf" target="_blank">Download my CV</a>
-			</div>
+					<div class="skills_and_cv_box">	
+						<ul class="skills_grid">
+							<li>JavaScript</li>
+							<li>PHP</li>
+							<li>Python</li>
+							<li>C</li>
+							<li>HTML / CSS</li>
+							<li>React.JS</li>
+							<li>Node.js</li>
+							<li>MySQL / MongoDB </li>
+							<li>OOP</li>
+							<li>REST APIs</li>
+							<li>Git</li>
+							<li>Agile</li>
+					</ul>
+					<a class="solo_link" href="images/MSylvestre_CV.pdf" target="_blank">Download my CV</a>
+				</div>
+				</div>
+			
 		</div>
 	</div>
 
@@ -59,8 +76,7 @@
 		<h2>Portfolio</h2>
 		<p class="portfolio_intro_text">
 			As a student of the iO Academy full stack software development course, I have worked on several individual
-			and team projects.
-			You will find below a brief description for each of them.
+			and team projects. You will find below a brief description of each of them.
 		</p>
 		<!-- TODO REORDER PROJECTS - PUT THE MOST INTERESTING FIRST! -->
 		<div class="project_cards_container">
@@ -69,11 +85,12 @@
 				<img src="images/margarater.jpg" alt="Screenshot my yarn collection app">
 				<h3>Pizza toppings rater</h3>
 				<div class="project_text">
-					<p> A website where you can vote for your favourite pizza toppings! We used a MERN stack to create a
+					<p>A website where you can vote for your favourite pizza toppings! We used a MERN stack to create a
 						website where users can either choose their favourite topping among 2 randomly selected toppings
 						or see the top 10 toppings from all the votes. On the frontend, I created the cards in which the
-						toppings are displayed, using React.JS, Typescript and SCSS. On the backend, I used Node.js, Express and Typescript
-						to implement the endpoint that allows to save the users' votes in the MongoDB database.
+						toppings are displayed, using React.JS, Typescript and SCSS. On the backend, I used Node.js,
+						Express and Typescript to implement the endpoint that allows saving the users' votes in the
+						MongoDB database.</p>
 					<div class="project_links_bar">
 						<a href="https://github.com/tauroid/margarater" target="_blank">Github</a>
 						<a href="https://2023-jan-chickens-margarater.dev.io-academy.uk/" target="_blank">Live</a>
@@ -88,11 +105,10 @@
 				<div class="project_text">
 					<p>
 						This is a typing speed game where players have 60s to copy a randomly generated text. At the end
-						of the game they can see their typing speed and the accuracy scores. We used Javascript, HTML
-						and CSS to create this app. I worked on various functionalities of this app such as fetching a
+						of the game, they can see their typing speed and accuracy scores. We used JavaScript, HTML and
+						CSS to create this app. I worked on various functionalities of this app such as fetching a
 						random text to copy from an API, comparing the player's input to the reference text and a timer.
-						I was also scrum master
-						for this project.
+						I was also scrum master for this project.
 					</p>
 
 					<div class="project_links_bar">
@@ -108,9 +124,9 @@
 				<h3>Project management API</h3>
 				<div class="project_text">
 					<p>
-						We created a backend REST API for a project management app with PHP and SQL. We used OOP to create
-						endpoints following the SOLID principles for the application architecture, allowing users to
-						display all the projects from the database or a specific project. I worked on the class
+						We created a backend REST API for a project management app with PHP and SQL. We used OOP to
+						create endpoints following the SOLID principles for the application architecture, allowing users
+						to display all the projects from the database or a specific project. I worked on the class
 						containing the details of a project, unit testing and error handling.
 					</p>
 					<div class="project_links_bar">
@@ -127,9 +143,9 @@
 				<h3>Food Delivery App</h3>
 				<div class="project_text">
 					<p>
-						We developed the frontend for a food delivery app using Bootstrap CSS and React JS. I
-						worked on the feature that allows diners to choose a restaurant, fetches its menu from a
-						supplied API and displays it on the webpage.
+						We developed the frontend for a food delivery app using Bootstrap CSS and React JS. I worked on
+						the feature that allows diners to choose a restaurant, fetches its menu from a supplied API and
+						displays it on the webpage.
 					</p>
 					<div class="project_links_bar">
 						<a href="https://github.com/iO-Academy/23-jan-chickens-food-delivery-app"
@@ -144,12 +160,12 @@
 				<h3>iO Academy Portal</h3>
 				<div class="project_text">
 					<p>
-						We contributed to the development of a management software for iO Academy, which would
-						handle the logistics of its training courses (i.e. creating student profiles, registering them
-						in a course etc.). We worked on the implementation of a feature that would allow a student to
-						edit their profile to add additional information. I worked on the PHP backend. I used the existing Slim framework to implement a
-						new endpoint for the API so that the new data are validated, sanitised and added in the MySQL
-						database.
+						We contributed to the development of management software for iO Academy, which would handle the
+						logistics of its training courses (i.e., creating student profiles, registering them in a course
+						etc.). We worked on the implementation of a feature that would allow a student to edit their
+						profile to add additional information. I worked on the PHP backend. I used the existing Slim
+						framework to implement a new endpoint for the API so that the new data are validated, sanitised,
+						and added to the MySQL database.
 					</p>
 					<div class="project_links_bar">
 						<a href="https://github.com/iO-Academy/AcademyPortal" target="_blank">Github</a>
@@ -161,7 +177,7 @@
 				<img src="images/yarnApp.png" alt="Screenshot my yarn collection app">
 				<h3>Collection app</h3>
 				<div class="project_text">
-					<p>A simple PHP app to visualise my yarn stash! It interrogates a MySQL database and displays all its
+					<p>A simple PHP app to visualise a yarn stash! It interrogates a MySQL database and displays all its
 						items in a pre-defined format, with minimal CSS styling.
 					</p>
 					<div class="project_links_bar">
@@ -188,7 +204,9 @@
 	</div>
 
 	<footer>
-		<p>Illustration by <a href="https://www.freepik.com/free-vector/hand-drawn-business-coffee-illustration_28924485.htm#query=programming%20hands&position=33&from_view=search&track=ais">Freepik</a> - © Copyright 2023</p>
+		<p>Illustration by <a
+				href="https://www.freepik.com/free-vector/hand-drawn-business-coffee-illustration_28924485.htm#query=programming%20hands&position=33&from_view=search&track=ais">Freepik</a>
+			- © Copyright 2023</p>
 	</footer>
 
 </body>
