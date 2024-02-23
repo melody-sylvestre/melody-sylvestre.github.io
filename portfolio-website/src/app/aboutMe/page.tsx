@@ -39,7 +39,7 @@ export default function aboutMe() {
                             <li>Git</li>
                             <li>Agile</li>
                         </ul>
-                        <a className="solo_link rounded-full bg-rose-400 p-1" href="images/MSylvestre_CV.pdf" target="_blank">Download my CV</a>
+                        <a className="solo_link rounded-full bg-rose-400 p-1" href="otherAssets/MSylvestre_CV.pdf" target="_blank">Download my CV</a>
                     </div>
                 </div>
             </div>
