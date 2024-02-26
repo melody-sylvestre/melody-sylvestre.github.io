@@ -1,8 +1,10 @@
 import { ContactBar } from "@/modules/ContactBar/ContactBar";
+import { Navbar } from "@/modules/Navbar/Navbar";
 
 export default function Home() {
   return (
     <>
+      <Navbar />
       <main className="flex flex-row justify-around p-12">
         <img src="images/me_crop.jpg" className="max-w-sm" />
         <div className="max-w-lg">
