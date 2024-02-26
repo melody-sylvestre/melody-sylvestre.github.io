@@ -5,12 +5,11 @@ export default function portfolio() {
     const projects: Array<Project> = projectsList.projects
     console.log(projects)
     return (
-        <>
-            {projects.forEach(project => {
-                <ProjectCard project={project} />
-
+        <div>
+            {projects.map(project => {
+                return (<ProjectCard project={project} />)
             })
             }
-        </>
+        </div>
     )
 }
