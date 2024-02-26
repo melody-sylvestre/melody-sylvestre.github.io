@@ -10,7 +10,7 @@ export default function Home() {
 
           <h1 className="text-3xl sm:text-6xl lg:text-8xl font-serif">Melody Sylvestre</h1>
           <h2 className="text-xl sm:text-3xl lg:text-4xl">Full Stack Software Engineer</h2>
-          <p className="text-l  sm:text-2xl lg:text-3xl">Hi and welcome on my portfolio</p>
+          <p className="text-l  sm:text-2xl lg:text-3xl">Hi and welcome to my portfolio</p>
         </div>
 
       </main >
