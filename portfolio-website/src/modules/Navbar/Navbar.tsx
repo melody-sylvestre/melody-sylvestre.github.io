@@ -8,9 +8,9 @@ export const Navbar = (): JSX.Element => {
     return (
         <>
             <nav className="flex flex-row justify-center min-w-[80vw] sm:min-w-0 gap-8 px-0 pb-4 sm:hidden">
-                {path !== "/" && <Link className="text-2xl  hover:font-bold" href="/">Home</Link>}
-                {path !== "/portfolio" && <Link className="text-2xl hover:font-bold" href="/portfolio">Portfolio</Link>}
-                {path !== "/aboutMe" && <Link className="text-2xl hover:font-bold" href="/aboutMe">About</Link>}
+                {path !== "/" && <Link className="text-xl  hover:font-bold" href="/">Home</Link>}
+                {path !== "/portfolio" && <Link className="text-xl hover:font-bold" href="/portfolio">Portfolio</Link>}
+                {path !== "/aboutMe" && <Link className="text-xl hover:font-bold" href="/aboutMe">About</Link>}
 
             </nav>
 
