@@ -4,41 +4,37 @@ import { Navbar } from "../Navbar/Navbar"
 export const AboutMe = (): JSX.Element => {
 
     return (
-        <div id="about_me" className="p-12 max-h-[100vh] bg-cover bg-center bg-[url('../../public/images/horse_head_nebula.jpg')]">
+        <div id="about_me" className="py-8 px-12 max-h-[100vh] bg-cover bg-center bg-[url('../../public/images/horse_head_nebula.jpg')]">
             <Navbar />
-            <div className="flex flex-row flex-wrap justify-around items-center bg-gray-950/50 p-4">
-                <img src="images/hands_on_laptop.jpg" className="w-96 object-cover rounded-xl"
+            <div className="flex flex-row flex-wrap justify-around items-center bg-gray-950/50 p-4 rounded-lg">
+                <img src="images/hands_on_laptop.jpg" className="w-[450px] object-cover rounded-xl"
                     alt="A drawing of someone using a laptop while taking notes on a notepad." />
-                <div className="flex flex-col items-center max-w-xl" >
-                    <h1 className="text-7xl font-serif p-4">About me</h1>
+                <div className="flex flex-col items-start max-w-xl justify-evenly gap-4" >
+                    <h1 className="text-7xl font-serif place-self-center">About me</h1>
                     {/* TODO: improve the text in this section - shorter more focused */}
-                    <p>Hi, I'm Melody! I am a full stack software engineer at Nando's UK. </p>
-                    <p>I'm curious and thrive on challenges, especially those that push me outside of my comfort zone.
-                        Coding is my passion, and I'm excited to pursue these interests in my new journey as a software
-                        developer.
-                    </p>
-                    <p>Here's a list of a few technologies and methodologies I have been working on:
-                    </p>
-                    <div className="skills_and_cv_box flex flex-col items-center max-w-5xl gap-12">
-                        <ul className="skills_grid list-disc grid grid-cols-3 gap-12 justify-around">
-                            <li>JavaScript</li>
-                            <li>PHP</li>
-                            <li>Python</li>
-                            <li>C</li>
-                            <li>HTML / CSS</li>
-                            <li>React.JS</li>
+                    <p className="text-lg">Hi, I'm Melody! I am a full stack software engineer for Nando's UK, based in Bristol. I love crafting inventive solutions to problems with elegant code.</p>
+                    <p className="text-lg">I'm particularly fond of working with Javascript and exploring the capabilities of Google Cloud Platform (GCP). That said, I'm always up for experimenting with new technologies and software to keep things interesting!</p>
+
+                    <p className="text-lg">Here's a list of a few technologies  I have been working with:</p>
+                    <div className="skills_and_cv_box flex flex-col items-center max-w-5xl gap-4 place-self-center">
+                        <ul className="skills_grid list-disc grid grid-cols-3 gap-8 text-lg justify-around">
                             <li>Node.js</li>
-                            <li>MySQL / MongoDB </li>
-                            <li>OOP</li>
+                            <li>Next.js</li>
+                            <li>React.JS</li>
+                            <li>GCP</li>
+                            <li>Terraform</li>
+                            <li>CI/CD</li>
+                            <li>PostGreSQL</li>
+                            <li>GraphQL</li>
                             <li>REST APIs</li>
-                            <li>Git</li>
-                            <li>Agile</li>
+                            <li>Python</li>
+                            <li>HTML</li>
+                            <li>CSS / SCSS</li>
                         </ul>
-                        <a className="solo_link rounded-full bg-rose-400 p-1" href="otherAssets/MSylvestre_CV.pdf" target="_blank">Download my CV</a>
+                        <a className="solo_link rounded-full bg-rose-400 p-2 text-lg hover:font-bold hover:bg-rose-500" href="otherAssets/MSylvestre_CV.pdf" target="_blank">Download my CV</a>
                     </div>
                 </div>
             </div>
-
             <ContactBar />
         </div>
     )
