@@ -1,19 +1,7 @@
-import { Project, ProjectCard } from "@/modules/ProjectCard/ProjectCard"
-import projectsList from "../../modules/projects.json"
-import { Navbar } from "@/modules/Navbar/Navbar"
-export default function portfolio() {
+import { PortfolioPage } from "@/modules/PortfolioPage/PortfolioPage";
 
-    const projects: Array<Project> = projectsList.projects
-    console.log(projects)
+export default function portfolioPage() {
     return (
-        <>
-            <Navbar />
-            <main>
-                {projects.map(project => {
-                    return (<ProjectCard project={project} />)
-                })
-                }
-            </main>
-        </>
+        <PortfolioPage />
     )
 }
