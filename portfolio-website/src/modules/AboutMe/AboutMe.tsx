@@ -29,9 +29,9 @@ export const AboutMe = (): JSX.Element => {
           </p>
           <p className="text-lg">
             I&rsquo;m particularly fond of working with Typescript and exploring
-            the capabilities of Google Cloud Platform (GCP). That said, I'm
-            always up for experimenting with new technologies and software to
-            keep things interesting!
+            the capabilities of Google Cloud Platform (GCP). That said,
+            I&rsquo;m always up for experimenting with new technologies and
+            software to keep things interesting!
           </p>
 
           <p className="text-lg">
