@@ -1,10 +1,7 @@
 import { ContactBar } from "../ContactBar/ContactBar";
-import { Navbar } from "../Navbar/Navbar";
-
 export const AboutMe = (): JSX.Element => {
   return (
-    <div className="flex flex-col items-center justify-evenly py-8 px-12 bg-cover min-h-[100vh] bg-center bg-[url('../../public/images/horse_head_nebula.jpg')]">
-      <Navbar />
+    <div className="flex flex-col items-center justify-evenly py-8 px-12 min-h-[100vh]">
       <div className="flex flex-row flex-wrap gap-8 min-w-[80vw] justify-around items-center bg-gray-950/50 p-4 rounded-lg">
         <img
           src="images/me.jpg"
