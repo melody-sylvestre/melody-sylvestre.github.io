@@ -1,41 +1,25 @@
 {
   "pages": {
-    "/_not-found": [
-      "static/chunks/webpack-c0db3adb38d54c2b.js",
-      "static/chunks/fd9d1056-cc48c28d170fddc2.js",
-      "static/chunks/69-40e4b04d50ac5fac.js",
-      "static/chunks/main-app-5e1ae2b02110d19e.js",
-      "static/chunks/app/_not-found-7854cf9359195166.js"
+    "/aboutMe/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/aboutMe/page.js"
     ],
     "/layout": [
-      "static/chunks/webpack-c0db3adb38d54c2b.js",
-      "static/chunks/fd9d1056-cc48c28d170fddc2.js",
-      "static/chunks/69-40e4b04d50ac5fac.js",
-      "static/chunks/main-app-5e1ae2b02110d19e.js",
-      "static/chunks/998-34110cca099306ea.js",
-      "static/css/5d55726e4792c73b.css",
-      "static/chunks/app/layout-898e1d2d949d033a.js"
-    ],
-    "/aboutMe/page": [
-      "static/chunks/webpack-c0db3adb38d54c2b.js",
-      "static/chunks/fd9d1056-cc48c28d170fddc2.js",
-      "static/chunks/69-40e4b04d50ac5fac.js",
-      "static/chunks/main-app-5e1ae2b02110d19e.js",
-      "static/chunks/app/aboutMe/page-9056203059eead34.js"
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/layout.css",
+      "static/chunks/app/layout.js"
     ],
     "/page": [
-      "static/chunks/webpack-c0db3adb38d54c2b.js",
-      "static/chunks/fd9d1056-cc48c28d170fddc2.js",
-      "static/chunks/69-40e4b04d50ac5fac.js",
-      "static/chunks/main-app-5e1ae2b02110d19e.js",
-      "static/chunks/app/page-ed4a033e6b446076.js"
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/page.js"
     ],
     "/portfolio/page": [
-      "static/chunks/webpack-c0db3adb38d54c2b.js",
-      "static/chunks/fd9d1056-cc48c28d170fddc2.js",
-      "static/chunks/69-40e4b04d50ac5fac.js",
-      "static/chunks/main-app-5e1ae2b02110d19e.js",
-      "static/chunks/app/portfolio/page-ee45980b2124326f.js"
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/portfolio/page.js"
     ]
   }
 }
