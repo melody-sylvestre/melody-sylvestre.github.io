@@ -15,15 +15,16 @@ export const AboutMe = (): JSX.Element => {
           <p className="text-lg">
             Hi, I&rsquo;m Melody! I am a full stack software engineer for{" "}
             <a
-              href="https://www.nandos.co.uk"
+              href="https://www.aico.co.uk/homelink/"
               target="_blank"
               className="text-rose-300"
             >
-              Nando&rsquo;s UK
+              HomeLINK
             </a>
             , based in Bristol. I love crafting inventive solutions to problems
             with elegant code.
           </p>
+
           <p className="text-lg">
             I&rsquo;m particularly fond of working with Typescript and exploring
             the capabilities of Google Cloud Platform (GCP). That said,
@@ -57,6 +58,10 @@ export const AboutMe = (): JSX.Element => {
               Download my CV
             </a>
           </div>
+
+          <p className="text-lg">
+           In a previous life I was an astrophysicist, and although I changed career, I still have a passion for space science and outreach. My latest obsession is obviously the Artemis 2 Moon flyby! 
+          </p>
         </div>
       </div>
       <ContactBar />
