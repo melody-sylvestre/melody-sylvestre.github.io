@@ -25,7 +25,7 @@ export const ProjectCard = (props: projectCardProps): JSX.Element => {
           >
             Github
           </a>
-          {props.project.liveLink && (
+          {/* {props.project.liveLink && (
             <a
               href={props.project.liveLink}
               target="_blank"
@@ -33,7 +33,7 @@ export const ProjectCard = (props: projectCardProps): JSX.Element => {
             >
               Live
             </a>
-          )}
+          )} */}
         </div>
       </div>
       <img
